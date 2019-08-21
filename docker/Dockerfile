@@ -1,3 +1,3 @@
 FROM python
-COPY . /src  
+COPY . /
 CMD ["python", "./quiz.py"]  
