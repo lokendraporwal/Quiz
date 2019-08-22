@@ -1,2 +1,2 @@
 FROM python
-CMD ["python", "./quiz.py"] 
+CMD ["python", "./main.py"] 
