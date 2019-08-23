@@ -3,7 +3,7 @@ n=int(input("Enter 1 for sports \n Enter 2 for Maths : "))
 with open("./input/quiz.json",'r') as f:
     dict=json.load(f)
 if n==1:
-    result = 0;
+    result = 0
     for j in dict['quiz']['sport']:
             i = 1
             que = dict['quiz']['sport'][j]['question']
@@ -17,7 +17,7 @@ if n==1:
                 result = result + 1
     print("Your result is : ", result)
 if(n==2):
-    result = 0;
+    result = 0
     for j in dict['quiz']['maths']:
             i = 1
             que = dict['quiz']['maths'][j]['question']
